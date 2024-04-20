@@ -20,8 +20,8 @@ const Trading = (props) => {
                 <div className="row flex-nowrap ">
                     <div className="col-auto bgLineMenu" id="slide-menu" style={{backgroundColor: '#737927'}}>
                         <div className="d-flex flex-column">
-                            <ul className="nav nav-pills d-flex flex-column sticky-top" id="menu">
-                                <p style={{fontSize: '18px', color: '#DCE19D'}} className='mt-5'>Giao dịch</p>
+                            <ul className="nav nav-pills d-flex flex-column sticky-top" id="menu" style={{fontSize: '30px'}}>
+                                <p style={{fontSize: '30px', color: '#DCE19D'}} className='mt-5'>Giao dịch</p>
                                 <li className="nav-item mt-2 mb-2">
                                     <NavLink to="/trading/danhmucduan" className="nav-link">
                                         <img src="/images/danhsach.png" alt="" /> <span className="ms-1 d-none d-sm-inline">Danh mục dự án</span>
@@ -42,7 +42,7 @@ const Trading = (props) => {
                                         <img src="/images/new.png" alt="" /> <span className="ms-1 d-none d-sm-inline">Lịch sử giao dịch</span>
                                     </NavLink>
                                 </li>
-                                <p style={{fontSize: '18px', color: '#DCE19D'}} className='mt-5'>Khám phá</p>
+                                <p style={{fontSize: '30px', color: '#DCE19D'}} className='mt-5'>Khám phá</p>
                                 <li className="nav-item mb-2">
                                     <NavLink to="/trading/tuvantunhanvien" className="nav-link">
                                         <img src="/images/thitruonggiaodich.png" alt="" /> <span className="ms-1 d-none d-sm-inline">Tư vấn từ nhân viên</span>
@@ -59,7 +59,7 @@ const Trading = (props) => {
                                     </NavLink>
                                 </li>
                                 
-                                <p style={{fontSize: '18px', color: '#DCE19D'}} className='mt-5'>Khác</p>
+                                <p style={{fontSize: '30px', color: '#DCE19D'}} className='mt-5'>Khác</p>
                                 <li className="nav-item mb-2">
                                     <NavLink to="/trading/moibanbe" className="nav-link">
                                         <img src="/images/moiban.png" alt="" /> <span className="ms-1 d-none d-sm-inline">Mời bạn bè</span>
@@ -82,11 +82,7 @@ const Trading = (props) => {
                                         <img src="/images/caidat.png" alt="" /> <span className="ms-1 d-none d-sm-inline">Cài đặt</span>
                                     </NavLink>
                                 </li>
-                                <li className="nav-item mb-2">
-                                    <NavLink to="/trading/dangxuat" className="nav-link">
-                                        <img src="/images/dangxuat.png" alt="" /> <span className="ms-1 d-none d-sm-inline">Đăng xuất</span>
-                                    </NavLink>
-                                </li>
+                               
                             </ul>
                         </div>
                     </div>

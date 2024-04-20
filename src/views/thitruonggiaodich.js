@@ -6,8 +6,8 @@ import "slick-carousel/slick/slick-theme.css";
 const ThiTruongGiaDich = (props) => {
     
        return (
-        <div >
-            <img alt='' src='/images/tindocquyen.jpg'/>
+        <div style={{backgroundImage: 'url(/images/forest2.png)', width: '100%'}}>
+            <img style={{ width: '80%'}}  alt='' src='/images/tindocquyen.jpg'/>
       
         </div>
     );

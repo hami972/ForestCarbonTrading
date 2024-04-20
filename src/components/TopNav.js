@@ -27,10 +27,10 @@ const TopNav = () => {
                 </button>
 
                 <div className="">
-                    <img src="/images/forestLogo.png" alt="Avatar Logo" style={{  height: "90px" }} />
+                    <img src="/images/forestLogo.png" alt="Avatar Logo" style={{  height: "100px" }} />
                 </div>
                 <div className="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul className="navbar-nav me-auto">
+                    <ul className="navbar-nav me-auto" style={{fontSize: '23px'}}>
                         <li className="nav-item me-4">
                             <NavLink className="nav-link" to="/" exact>Về chúng tôi</NavLink>
                         </li>
@@ -52,9 +52,9 @@ const TopNav = () => {
                         {isLoggedIn ? (
                             <>
                             <li className="nav-item me-4">
-                                <NavLink className="nav-link" to="/trading">Trading</NavLink>
+                                <NavLink className="nav-link" to="/trading">Giao dịch</NavLink>
                             </li>
-                            <Button className="nav-item me-4" onClick={handleLogout} >
+                            <Button className="nav-item me-4" onClick={handleLogout} style={{fontSize: '22px'}}>
                                 Đăng xuất
                             </Button>
                             </>
